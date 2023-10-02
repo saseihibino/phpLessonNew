@@ -46,8 +46,7 @@ function calc($yen, $product) {
     <section>
         <!-- ここに結果表示 -->
         <?php
-        $calc = calc($yen, $product);
-        echo $calc;
+        calc($yen, $product);
         ?>
     </section>
 </body>
